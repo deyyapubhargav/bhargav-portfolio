@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: radial-gradient(circle at top, #1a0633, #02010a);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(139, 92, 246, 0.15), transparent 40%),
+        radial-gradient(circle at 80% 60%, rgba(168, 85, 247, 0.12), transparent 40%);
+    pointer-events: none;
+    z-index: -1;
+}
