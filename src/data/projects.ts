@@ -3,7 +3,7 @@ export const projects = [
         title: "Omnifera – LLM Based AI Chatbot",
         type: "Academic Major Project",
         description:
-            "Omnifera is an LLM-powered intelligent chatbot designed to provide contextual, conversational responses using modern large language models. The system focuses on accuracy, scalability, and real-world usability, enabling intelligent query handling across domains.",
+            "An LLM-powered intelligent chatbot designed to provide accurate, contextual, and conversational responses. The system focuses on scalability, real-world usability, and efficient AI-driven interactions across multiple domains.",
         tech: [
             "Large Language Models",
             "Generative AI",
@@ -14,20 +14,54 @@ export const projects = [
         github: "https://github.com/deyyapubhargav/majorproject",
         demo: "",
     },
+
+    {
+        title: "AI-Based Online Shopping Platform",
+        type: "Academic Mini Project",
+        description:
+            "An AI-powered fashion shopping application that recommends personalized outfits, hairstyles, and accessories using machine learning and computer vision. Includes virtual try-on, outfit comparison, and intelligent recommendations to enhance user experience.",
+        tech: [
+            "Python",
+            "Machine Learning",
+            "Computer Vision",
+            "AI Recommendations",
+            "Web Development",
+        ],
+        github: "",
+        demo: "",
+    },
+
+    {
+        title: "Bunny Assistant – Voice Controlled Desktop Assistant",
+        type: "Personal Project",
+        description:
+            "A voice-controlled offline desktop assistant capable of executing system commands, responding to voice inputs, and automating daily tasks. Designed to work without internet dependency for enhanced privacy and reliability.",
+        tech: [
+            "Python",
+            "Speech Recognition",
+            "Voice Commands",
+            "Automation",
+            "Offline AI",
+        ],
+        github: "https://github.com/deyyapubhargav/bunny-assistant",
+        demo: "",
+    },
+
     {
         title: "AI Resume Analyzer",
         type: "Personal Project",
         description:
-            "An AI-driven resume analysis system that evaluates resumes against job descriptions, extracts key skills, and provides insights to improve candidate-job matching using NLP techniques.",
-        tech: ["Python", "NLP", "AI", "Text Analysis"],
+            "An AI-based resume analysis tool that evaluates resumes against job descriptions, extracts key skills, and provides insights to improve candidate-job alignment using NLP techniques.",
+        tech: ["Python", "NLP", "AI", "Text Processing"],
         github: "https://github.com/deyyapubhargav/ai-resume-analyzer",
         demo: "",
     },
+
     {
         title: "Educational SLM Chatbot",
         type: "Personal Project",
         description:
-            "A lightweight Small Language Model (SLM) based chatbot designed for educational use cases, capable of answering subject-specific queries efficiently with reduced computational cost.",
+            "A lightweight Small Language Model (SLM) based chatbot developed for educational use cases, optimized for faster responses and lower computational cost while maintaining accuracy.",
         tech: ["SLM", "AI Chatbot", "Python", "Education Tech"],
         github: "https://github.com/deyyapubhargav/educational-slm-chatbot",
         demo: "",
