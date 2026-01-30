@@ -1,69 +1,64 @@
-export const projects = [
+export interface Project {
+    title: string;
+    type: string;
+    description: string;
+    tech: string[];
+    github?: string;
+}
+
+export const projects: Project[] = [
     {
-        title: "Omnifera – LLM Based AI Chatbot",
+        title: "Omnifera – LLM Based Chatbot",
         type: "Academic Major Project",
         description:
-            "An LLM-powered intelligent chatbot designed to provide accurate, contextual, and conversational responses. The system focuses on scalability, real-world usability, and efficient AI-driven interactions across multiple domains.",
-        tech: [
-            "Large Language Models",
-            "Generative AI",
-            "Python",
-            "Natural Language Processing",
-            "Web Development",
-        ],
+            "An LLM-powered conversational chatbot with context awareness and scalable response handling.",
+        tech: ["LLM", "AI", "Python", "NLP"],
         github: "https://github.com/deyyapubhargav/majorproject",
-        demo: "",
     },
-
     {
         title: "AI-Based Online Shopping Platform",
         type: "Academic Mini Project",
         description:
-            "An AI-powered fashion shopping application that recommends personalized outfits, hairstyles, and accessories using machine learning and computer vision. Includes virtual try-on, outfit comparison, and intelligent recommendations to enhance user experience.",
-        tech: [
-            "Python",
-            "Machine Learning",
-            "Computer Vision",
-            "AI Recommendations",
-            "Web Development",
-        ],
-        github: "",
-        demo: "",
+            "AI-driven shopping platform with smart recommendations and responsive UI.",
+        tech: ["AI", "Machine Learning", "Web"],
     },
-
     {
-        title: "Bunny Assistant – Voice Controlled Desktop Assistant",
+        title: "Bunny Assistant",
         type: "Personal Project",
         description:
-            "A voice-controlled offline desktop assistant capable of executing system commands, responding to voice inputs, and automating daily tasks. Designed to work without internet dependency for enhanced privacy and reliability.",
-        tech: [
-            "Python",
-            "Speech Recognition",
-            "Voice Commands",
-            "Automation",
-            "Offline AI",
-        ],
+            "Offline voice-controlled desktop assistant for system automation.",
+        tech: ["Python", "Speech Recognition", "Automation"],
         github: "https://github.com/deyyapubhargav/bunny-assistant",
-        demo: "",
     },
-
     {
         title: "AI Resume Analyzer",
         type: "Personal Project",
         description:
-            "An AI-based resume analysis tool that evaluates resumes against job descriptions, extracts key skills, and provides insights to improve candidate-job alignment using NLP techniques.",
-        tech: ["Python", "NLP", "AI", "Text Processing"],
+            "Analyzes resumes using NLP and matches them against job descriptions.",
+        tech: ["NLP", "AI", "Python"],
         github: "https://github.com/deyyapubhargav/ai-resume-analyzer",
-        demo: "",
     },
-
     {
         title: "Educational SLM Chatbot",
         type: "Personal Project",
         description:
-            "A lightweight Small Language Model (SLM) based chatbot developed for educational use cases, optimized for faster responses and lower computational cost while maintaining accuracy.",
-        tech: ["SLM", "AI Chatbot", "Python", "Education Tech"],
+            "Lightweight domain-specific chatbot optimized for fast responses.",
+        tech: ["SLM", "Chatbot", "Python"],
         github: "https://github.com/deyyapubhargav/educational-slm-chatbot",
-        demo: "",
     },
+    {
+        title: "Advanced Secure Steganography System",
+        type: "Academic / Security Project",
+        description:
+            "A secure steganography system for hiding sensitive information inside digital media using encryption and advanced embedding techniques. Focuses on data confidentiality, integrity, and resistance to detection.",
+        tech: [
+            "Steganography",
+            "Cryptography",
+            "Information Security",
+            "Python",
+            "Secure Systems"
+        ],
+        github: "https://github.com/deyyapubhargav/advanced-secure-steganography"
+    }
+
 ];
